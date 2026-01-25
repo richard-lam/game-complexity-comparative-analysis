@@ -31,16 +31,31 @@ Special attention is given to competitive Elder Dragon Highlander (cEDH) as a mo
 
 ---
 
+## Multilingual Editions
+
+In alignment with official Magic: The Gathering printings and localization standards post-2024, this paper is provided in six languages commonly supported in modern MTG releases:
+
+- English  
+- French  
+- German  
+- Italian  
+- Spanish  
+- Japanese  
+
+These editions are intended to mirror the international competitive ecosystem of Magic: The Gathering and improve accessibility for a global research and player audience.
+
+---
+
 ## Whitepapers
 
-Multilingual editions of the paper are provided for accessibility:
+Multilingual editions of the paper are provided below:
 
-- [English](whitepapers/Project_cEDH_Whitepaper_English.pdf)  
-- [French](whitepapers/Project_cEDH_Whitepaper_French.pdf)  
-- [German](whitepapers/Project_cEDH_Whitepaper_German.pdf)  
-- [Italian](whitepapers/Project_cEDH_Whitepaper_Italian.pdf)  
-- [Spanish](whitepapers/Project_cEDH_Whitepaper_Spanish.pdf)  
-- [Japanese](whitepapers/Project_cEDH_Whitepaper_Japanese.pdf)  
+- [English](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_EN.pdf)  
+- [French](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_FR.pdf)  
+- [German](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_DE.pdf)  
+- [Italian](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_IT.pdf)  
+- [Spanish](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_ES.pdf)  
+- [Japanese](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_JP.pdf)  
 
 ---
 
