@@ -83,3 +83,7 @@ Planned downstream applications include:
 
 This repository contains finalized research whitepapers.  
 Future work extends this analysis into simulation, multi-agent systems, and human–AI interaction in multiplayer imperfect-information games.
+
+## Demo
+
+1. demo001 - MTG Game Engine AI
