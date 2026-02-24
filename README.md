@@ -1,89 +1,110 @@
-# Chess vs Go vs Magic: The Gathering  
-## A Comparative Complexity Analysis
+# Project cEDH Research Papers
 
-This repository contains multilingual editions of the whitepaper:
+**Richard Lam — 2026**
 
-**“Chess vs Go vs Magic: The Gathering — A Comparative Complexity Analysis”**  
-Richard Lam — January 2026  
+Research papers and demonstrations for Project cEDH — an initiative exploring competitive Magic: The Gathering as a benchmark for strategic intelligence in artificial systems.
 
-The paper examines the cognitive and strategic complexity of three iconic competitive games — Chess, Go, and Magic: The Gathering — with emphasis on how information structure, probabilistic reasoning, and evolving metagames shape decision making.
-
-Motivated by the recognition of Magic: The Gathering as the world’s most complex game by the *MIT Technology Review*, this work provides a comparative framework for understanding strategic depth across perfect- and imperfect-information systems.
+Motivated by the recognition of Magic: The Gathering as the world's most complex game by the *MIT Technology Review*, this body of work provides a comparative framework for understanding strategic depth across perfect- and imperfect-information systems, and proposes competitive Elder Dragon Highlander (cEDH) as a candidate benchmark for evaluating broader forms of AI decision-making.
 
 ---
 
-## Research Scope
+## Repository Structure
 
-The analysis compares the games across multiple dimensions:
-
-- Perfect vs imperfect information  
-- Deterministic vs probabilistic decision making  
-- Combinatorial and emergent complexity  
-- Skill requirements and cognitive demands  
-- Long-term strategic planning versus adaptive systems thinking  
-
-Special attention is given to competitive Elder Dragon Highlander (cEDH) as a modern multiplayer environment combining:
-
-- Hidden information  
-- Multi-agent adversarial interaction  
-- Negotiation and threat assessment  
-- Constantly evolving strategic metas  
-
----
-
-## Multilingual Editions
-
-In alignment with official Magic: The Gathering printings and localization standards post-2024, this paper is provided in six languages commonly supported in modern MTG releases:
-
-- English  
-- French  
-- German  
-- Italian  
-- Spanish  
-- Japanese  
-
-These editions are intended to mirror the international competitive ecosystem of Magic: The Gathering and improve accessibility for a global research and player audience.
+```
+.
+├── whitepapers/
+│   ├── Chess_vs_Go_vs_Magic_Comparative_Complexity/   # Whitepaper 1
+│   └── The_Project_cEDH_Framework/                    # Whitepaper 2
+├── demo/
+│   ├── demo001/   # MTG Game Engine + AI (slide deck)
+│   └── demo002/   # cEDH AI Platform (slide deck)
+└── README.md
+```
 
 ---
 
 ## Whitepapers
 
-Multilingual editions of the paper are provided below:
+### 1. Chess vs Go vs Magic: The Gathering — A Comparative Complexity Analysis
 
-- [English](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_EN.pdf)  
-- [French](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_FR.pdf)  
-- [German](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_DE.pdf)  
-- [Italian](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_IT.pdf)  
-- [Spanish](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_ES.pdf)  
-- [Japanese](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity_JP.pdf)  
+Compares the cognitive and strategic demands of Chess, Go, and Magic: The Gathering across multiple dimensions — including information structure, decision type, game state size, and skill requirements. Highlights why MTG, particularly in the cEDH format, presents a uniquely challenging environment combining combinatorial complexity, hidden information, probabilistic reasoning, and constantly evolving metas.
+
+| Aspect | Chess | Go | Magic: The Gathering |
+|---|---|---|---|
+| Information | Perfect | Perfect | Imperfect |
+| Game State Size | ~10^47 | ~10^170 | Effectively unbounded |
+| Decision Type | Deterministic | Deterministic | Probabilistic, adaptive |
+| Time to Master | Decades | Lifelong | Lifelong; evolving meta |
+
+Available in six languages:
+
+- [English](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity/Chess_vs_Go_vs_Magic_Comparative_Complexity_EN.pdf)
+- [French](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity/Chess_vs_Go_vs_Magic_Comparative_Complexity_FR.pdf)
+- [German](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity/Chess_vs_Go_vs_Magic_Comparative_Complexity_DE.pdf)
+- [Italian](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity/Chess_vs_Go_vs_Magic_Comparative_Complexity_IT.pdf)
+- [Spanish](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity/Chess_vs_Go_vs_Magic_Comparative_Complexity_ES.pdf)
+- [Japanese](whitepapers/Chess_vs_Go_vs_Magic_Comparative_Complexity/Chess_vs_Go_vs_Magic_Comparative_Complexity_JP.pdf)
+
+### 2. Magic: The Gathering as a Benchmark for Strategic Intelligence in Artificial Systems — The Project cEDH Framework
+
+Proposes competitive Magic: The Gathering (cEDH) as a candidate AI benchmark that integrates imperfect information, stochastic dynamics, symbolic rule interactions, multi-agent competition, and an evolving strategy space within a single environment. Introduces Project cEDH, a deterministic simulation framework supporting reproducible experimentation with AI agents. Includes a mathematical framing of decision complexity and a three-stage experimental methodology (baseline heuristic agents, self-play training, and human evaluation).
+
+| Game | Information | Agents | Rule Space |
+|---|---|---|---|
+| Chess | Perfect | 2 | Fixed |
+| Go | Perfect | 2 | Fixed |
+| Poker | Imperfect | 2–6 | Fixed |
+| cEDH | Imperfect | 3–4 | Expanding |
+
+Available in six languages:
+
+- [English](whitepapers/The_Project_cEDH_Framework/The_Project_cEDH_Framework_EN.pdf)
+- [French](whitepapers/The_Project_cEDH_Framework/The_Project_cEDH_Framework_FR.pdf)
+- [German](whitepapers/The_Project_cEDH_Framework/The_Project_cEDH_Framework_DE.pdf)
+- [Italian](whitepapers/The_Project_cEDH_Framework/The_Project_cEDH_Framework_IT.pdf)
+- [Spanish](whitepapers/The_Project_cEDH_Framework/The_Project_cEDH_Framework_ES.pdf)
+- [Japanese](whitepapers/The_Project_cEDH_Framework/The_Project_cEDH_Framework_JP.pdf)
 
 ---
 
-## Abstract
+## Demos
 
-This white paper explores the cognitive and strategic demands of three iconic games: Chess, Go, and Magic: The Gathering. While Chess and Go are often cited as pinnacles of abstract strategy, Magic introduces an additional layer of complexity through hidden information, probabilistic outcomes, and a constantly evolving meta-game.
+### demo001 — MTG Game Engine + AI
 
-By comparing decision space, information structure, and skill requirements, the analysis highlights why Magic: The Gathering has been recognized as the most complex game in the world and illustrates how modern game design challenges advanced strategic cognition.
+[View PDF](demo/demo001/MTG_game_engine_AI.pdf)
+
+Slide deck presenting the architecture and current state of the full competitive MTG game engine. Covers:
+
+- **Software Architecture** — Frontend (React + TypeScript, Vite + Tailwind) → FastAPI REST API → Game Controller → Core Rules Engine
+- **Data Model** — GameState, Player, GameObject, Card, Decklist, and DeckBuilder entities with Scryfall card data integration
+- **Core Engine** — Turn & priority system, stack resolution & counterspells, mana costs (hybrid, phyrexian, X), multiplayer combat, triggers, abilities, keywords, and oracle text execution
+- **End-to-End Gameplay** — Game creation from decklists, Commander London Mulligan, full turn cycle, spell casting & stack interaction, combat, triggers, state-based actions, and AI auto-pass priority
+
+### demo002 — Magic: The Gathering cEDH AI
+
+[View PDF](demo/demo002/Magic_%20the_Gathering-CEDH_AI.pdf)
+
+Slide deck showcasing the cEDH AI platform with full UI demonstrations. Includes the landing page, multiplayer game lobby creation (human + AI slots), quick-game mode against AI opponents, mulligan decision interface, and in-game board state with card tooltips, game log, stack viewer, and zone management.
 
 ---
 
-## Relation to Ongoing Work
+## Multilingual Editions
 
-This research serves as the conceptual foundation for an in-progress multiplayer simulation and multi-agent project focused on competitive Elder Dragon Highlander (cEDH).
-
-Planned downstream applications include:
-- Deterministic multiplayer game state modeling  
-- Human-in-the-loop gameplay systems  
-- Multi-agent decision making under imperfect information  
-- Negotiation, trust, and reputation modeling in adversarial environments  
+All whitepapers are provided in six languages aligned with official Magic: The Gathering localization standards: **English**, **French**, **German**, **Italian**, **Spanish**, and **Japanese**.
 
 ---
 
-## Status
+## Planned Work
 
-This repository contains finalized research whitepapers.  
-Future work extends this analysis into simulation, multi-agent systems, and human–AI interaction in multiplayer imperfect-information games.
+- Deterministic multiplayer game state modeling
+- Human-in-the-loop gameplay systems
+- Multi-agent decision making under imperfect information
+- Heuristic evaluation and Monte Carlo Tree Search
+- Self-play training infrastructure
+- Negotiation, trust, and reputation modeling in adversarial environments
 
-## Demo
+---
 
-1. demo001 - MTG Game Engine AI
+## Author
+
+Richard Lam — Independent Researcher
